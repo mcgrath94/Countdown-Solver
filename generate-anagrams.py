@@ -1,4 +1,5 @@
 #this will generate the Countdown word
+#have integrated this into the countdown-solver script
 import random
 import string
 
@@ -13,8 +14,7 @@ randAny = ''.join(random.choice(string.ascii_lowercase) for i in range(2))
 rand = randVow + randCon + randAny
 print (rand)
 
-randSorted = ''.join(sorted(rand))
-print (randSorted)
+
 
 
 
